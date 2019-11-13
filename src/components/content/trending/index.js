@@ -9,7 +9,7 @@ const Trending = (props) => {
     <div>
       <div className="header-trending">
       <h3 className="title-trending">Trending</h3>
-      <Badge href="#" color="danger" className="float-right">More Trending</Badge>
+      <Badge href="/detail" color="danger" className="float-right">More Trending</Badge>
       </div>
       
       <Row>

@@ -39,7 +39,13 @@ p.description-about.card-text {
 }
 .post-lastest {
   width: 65%;
-  padding: 2%;
+}
+.image-postdetail{
+padding-bottom: 1rem;
+}
+.post-content {
+  padding: 5% 0;
+  width: 60%;
 }
 a.load-more.badge.badge-danger {
   width: 100%;
@@ -61,4 +67,18 @@ a.title-link.media {
 }
 a.social-item.btn.btn-secondary {
   margin: 2%;
+}
+.container {
+  padding-bottom: 2%;
+}
+.post-popular {
+  margin: 5% 0;
+  padding: 20px 0;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+.post-relate{
+  margin: 0 0 5% 0;
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
 }

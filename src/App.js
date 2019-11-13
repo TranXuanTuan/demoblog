@@ -1,19 +1,15 @@
-import React from 'react';
-import './App.css';
-import Slider from './components/slider';
-import Footer from './components/footer';
-import Header from './components/header'
-import Content from './components/content'
+import React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Detail from './views/Detail'
+import Home from './views/Home';
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Slider />
-      <Content />
-      <Footer />
-    </div>
-  );
+export default function index() {
+    return (
+        <Router>
+            <div>
+              <Route exact path="/"><Home /></Route>
+              <Route path="/detail"><Detail /></Route>
+            </div>
+        </Router>
+    )
 }
-
-export default App;

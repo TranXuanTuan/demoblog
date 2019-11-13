@@ -7,7 +7,7 @@ import {
 import MostRead1 from '../../../assets/image/mostread/post-3-copyright-600x600.jpg'
 import MostRead2 from '../../../assets/image/mostread/post-43-copyright-600x600.jpg'
 import MostRead3 from '../../../assets/image/mostread/post-48-copyright-600x600.jpg'
-import MostRead4 from '../../../assets/image/mostread/post-8-copyright-600x600.jpg'
+import MostRead4 from '../../../assets/image/post-28-copyright-600x600.jpg'
 
 const MostRead = (props) => {
     return (
