@@ -6,10 +6,10 @@ import trending3 from '../../../assets/image/post-49-copyright-600x600.jpg'
 
 const Trending = (props) => {
   return (
-    <div>
+    <div className="trending">
       <div className="header-trending">
       <h3 className="title-trending">Trending</h3>
-      <Badge href="/detail" color="danger" className="float-right">More Trending</Badge>
+      <Badge href="/detail" color="danger">More Trending</Badge>
       </div>
       
       <Row>

@@ -14,12 +14,12 @@ const Comment = (props) => {
                 </Col>
                 <Col xs="6">
                     <FormGroup>
-                        <Input type="email" name="email" id="email" placeholder="email *" />
+                        <Input type="email" name="email" id="email" placeholder="Email *" />
                     </FormGroup>
                 </Col>
             </Row>
             <FormGroup>
-                <Input type="textarea" name="comment" id="comment" placeholder="comment *"/>
+                <Input type="textarea" name="comment" id="comment" placeholder="Comment *"/>
             </FormGroup>
             <FormGroup check>
                 <Label check>

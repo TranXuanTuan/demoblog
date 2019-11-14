@@ -1,0 +1,25 @@
+.post-content {
+    padding: 2% 0;
+    width: 60%;
+}
+.post-popular {
+    margin: 5% 0;
+    padding: 20px 0;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+  }
+.post-relate{
+margin: 0 0 5% 0;
+padding: 20px 0;
+border-bottom: 2px solid #ddd;
+}
+.form-check-label {
+    margin-bottom: 20px;
+}
+.image-postdetail{
+    padding-bottom: 1rem;
+    }
+.post-content {
+    padding: 5% 0;
+    width: 60%;
+}
